@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.Txt-CarWash {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-list {
+  max-width: max-content;
+  padding-right: 10px;
+  border-right: 3px solid black;
+  font-family: "Manrope", sans-serif;
+  padding: 2px 20px;
+  margin-right: 20px;
+}
+.ulnavbar {
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  list-style: none;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}

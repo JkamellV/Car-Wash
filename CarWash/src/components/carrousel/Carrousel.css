@@ -1,0 +1,27 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: rgba(198, 198, 15, 0.742);
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+.button-left {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+}
+.container-photo {
+  width: 40px;
+  background-color: black;
+  height: 60px;
+  margin: auto;
+}
+.button-right {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
