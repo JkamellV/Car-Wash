@@ -10,31 +10,36 @@ function Footer() {
           <div className="Text-input">
             <p>New to Car Wash? Join Us Now</p>
             <div className="input-text">
-              <input type="text" placeholder="Enter your Email" />  
+              <input type="text" placeholder="Enter your Email" />
             </div>
           </div>
           <div className="btn">
-            <button>Register </button>
+            <button className="btn-register">Register </button>
           </div>
         </div>
       </div>
       <div className="sectio-bottom">
-        <ul>
+        <ul className="box-text">
+          <h3>HELP</h3>
           <li>
-            <h3>HELP</h3>
+            {" "}
+            <a href="/">Help Center</a>
           </li>
-          <li>Help Center</li>
-          <li>How to shop</li>
+          <li>
+            <a href=""></a>How to shop
+          </li>
         </ul>
-        <ul>
-          <li>2</li>
-          <li>2</li>
-          <li>2</li>
+        <ul className="box-text">
+          <h3>ABUOT</h3>
+          <li>About Car Wash</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
         </ul>
-        <ul>
-          <li>3</li>
-          <li>3</li>
-          <li>3</li>
+        <ul className="box-text">
+          <h3>Contact us</h3>
+          <li>Phone: +94 11 23145678</li>
+          <li>Open Hour: Every day 8.00 am- 5.00pm</li>
+          <li>Email: info@example.com</li>
         </ul>
       </div>
     </footer>
